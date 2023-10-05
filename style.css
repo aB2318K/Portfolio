@@ -143,11 +143,12 @@ figure {
 }
 
 /*phone*/
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 480px) {
 
     body {
         overflow-x: hidden;
     }
+
     nav {
         margin-right: 0;
         margin-left: 0;
