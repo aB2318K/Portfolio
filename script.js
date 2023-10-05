@@ -36,6 +36,22 @@ document.getElementById('mm').onmouseleave = function() {
     mm.style.width = '';
     mm.innerHTML = 'Mixed Messages';
   };
+
+function projectDes2 () {
+  let jam = document.getElementById('jam');
+      jam.style.color = 'white';
+      jam.style.backgroundColor = 'black';
+      jam.style.width = '100%';
+      jam.innerHTML = 'This program lets you make a playlist and save it to your spotify.';
+    }
   
+document.getElementById('jam').onmouseenter = projectDes2;
+document.getElementById('jam').onmouseleave = function() {
+   let jam = document.getElementById('jam');
+       jam.style.color = '';
+       jam.style.backgroundColor = '';
+       jam.style.width = '';
+       jam.innerHTML = 'Jamming';
+      };
 
   
